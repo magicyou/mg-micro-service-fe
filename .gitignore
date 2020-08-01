@@ -12,7 +12,7 @@ demo-app-vue2/dist
 .env.local
 .env.*.local
 
-qiankun/.env.local
+qiankun/.env.localyarn
 demo-app-vue/.env.local
 demo-app-vue2/.env.local
 
