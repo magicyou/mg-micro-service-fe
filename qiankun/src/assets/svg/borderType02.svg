@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="560px" height="340px" viewBox="0 0 560 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>边框</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EF5" offset="0%"></stop>
+            <stop stop-color="#1ABBE6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#1ABBE6" offset="0%"></stop>
+            <stop stop-color="#009EF5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="数据大屏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据大屏-Operations" transform="translate(-50.000000, -700.000000)">
+            <g id="Laden-Voyage" transform="translate(50.000000, 700.000000)">
+                <g id="边框" transform="translate(280.000000, 170.000000) scale(-1, -1) translate(-280.000000, -170.000000) ">
+                    <polygon id="路径" fill-opacity="0.3" fill="#021646" transform="translate(281.000000, 169.500000) scale(1, -1) translate(-281.000000, -169.500000) " points="140.125 2 26.828 2 4 24.8443685 4 337 16.309892 337 22.5230582 334.237768 51.7940926 334.237768 58.0213807 337 548.165 337 558 327.088749 558 157.581058 552.901068 152.474933 552.901068 48.0542131 558 42.8024324 558 6.98545393 548.861701 6.98613388 534.927 2.02373353 419.351 2.02373353 398.582716 26.5137083 160.246685 26.5137083"></polygon>
+                    <polygon id="矩形" fill-opacity="0.4" fill="#1ABAE6" points="168.513461 316 389.588282 316 407.977122 338 150.565792 338"></polygon>
+                    <path d="M140.565792,0 L160.685441,24.5129369 L397.351926,24.5129369 L418.121215,0.0229851403 L535.651076,0.0229851403 L549.58602,3.98532618 L560,3.98532618 L560,39.8306217 L554.901068,45.0818892 L554.901068,151.645533 L560,156.751667 L560,326.913797 L548.997905,338 L60,338 L51.9837555,334 L21.9809946,334 L14,338 L2,338 L2,24.017117 L26,0 L140.565792,0 Z M140.125,2 L26.828,2 L4,24.8443685 L4,336 L14,336 L21.9809946,332 L51.9837555,332 L60,336 L548.165,336 L558,326.088749 L558,157.581058 L552.901068,152.474933 L552.901068,44.0542131 L558,38.8024324 L558,5.98545393 L548.861701,5.98613388 L534.927,2.02373353 L419.351,2.02373353 L398.582716,26.5137083 L160.246685,26.5137083 L140.125,2 Z" id="形状结合" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(281.000000, 169.000000) scale(1, -1) translate(-281.000000, -169.000000) "></path>
+                    <polygon id="路径-18" fill="#3BF2EC" fill-rule="nonzero" transform="translate(559.000000, 240.000000) rotate(-270.000000) translate(-559.000000, -240.000000) " points="601 239 601 241 517 241 517 239"></polygon>
+                    <path d="M22,318 L0,340 L0,318 L22,318 Z M14.758,320.999255 L3,320.999255 L3,332.757255 L14.758,320.999255 Z" id="路径-16" fill="#3BF2EC" fill-rule="nonzero" transform="translate(11.000000, 329.000000) scale(1, -1) translate(-11.000000, -329.000000) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

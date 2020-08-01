@@ -1,11 +1,11 @@
 .DS_Store
 qiankun/node_modules
 demo-app-vue/node_modules
-demo-app-vue2/node_modules
+demo2-app-vue/node_modules
 
 qiankun/dist
 demo-app-vue/dist
-demo-app-vue2/dist
+demo2-app-vue/dist
 
 
 # local env files
@@ -14,11 +14,11 @@ demo-app-vue2/dist
 
 qiankun/.env.localyarn
 demo-app-vue/.env.local
-demo-app-vue2/.env.local
+demo-app-vue/.env.local
 
 qiankun/.env.*.local
 demo-app-vue/.env.*.local
-demo-app-vue2/.env.*.local
+demo2-app-vue/.env.*.local
 
 # Log files
 npm-debug.log*

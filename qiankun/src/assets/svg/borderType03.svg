@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="680px" height="340px" viewBox="0 0 680 340" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>边框</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#009EF5" offset="0%"></stop>
+            <stop stop-color="#1ABBE6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#1ABBE6" offset="0%"></stop>
+            <stop stop-color="#009EF5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="数据大屏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据大屏-Operations" transform="translate(-620.000000, -700.000000)">
+            <g id="DWT-&amp;-Tonnage-Miles" transform="translate(620.000000, 700.000000)">
+                <g id="边框" transform="translate(340.000000, 170.000000) scale(-1, -1) translate(-340.000000, -170.000000) ">
+                    <polygon id="路径" fill-opacity="0.3" fill="#021646" transform="translate(340.000000, 170.077816) scale(1, -1) translate(-340.000000, -170.077816) " points="200.125 3.15563151 24.828 3.15563151 2 2 2 338.155632 14.309892 338.155632 20.5230582 335.393399 49.7940926 335.393399 56.0213807 338.155632 668.165 338.155632 678 328.24438 678 158.73669 672.901068 153.630564 672.901068 49.2098446 678 43.9580639 678 8.14108544 668.861701 8.1417654 654.927 3.17936504 479.351 3.17936504 458.582716 27.6693399 220.246685 27.6693399"></polygon>
+                    <polygon id="矩形" fill-opacity="0.4" fill="#1ABAE6" points="228.612136 316 449.415231 316 468.125061 338 210.565792 338"></polygon>
+                    <path d="M200.565792,0 L220.685441,26.5129369 L457.351926,26.5129369 L478.121215,0.0229851403 L655.651076,0.0229851403 L669.58602,3.98532618 L680,3.98532618 L680,41.8306217 L674.901068,47.0818892 L674.901068,153.645533 L680,158.751667 L680,328.913797 L680,340 L667.804226,340 L659.980622,336 L629.961306,336 L621.917073,340 L58,340 L49.9837555,336 L19.9809946,336 L12,340 L0,340 L0,159.070432 L5,153.08401 L5,47.9944433 L0,42.0603891 L0,4.01711696 L9.98211279,4.00999765 L24,0 L200.565792,0 Z M199.125,1 L24.828,2 L10.9061559,6.01447409 L2,6.02373353 L2,40.8909321 L7,47.1239321 L7,154.043995 L2,160.02935 L2,338 L12,338 L19.9809946,334 L49.9837555,334 L58,338 L621.839327,338 L629.884962,334 L659.759642,334 L667.837495,338 L678,338 L678,328.088749 L678,159.581058 L672.901068,154.474933 L672.901068,46.0542131 L678,40.8024324 L678,5.98545393 L668.861701,5.98613388 L654.927,2.02373353 L479.351,2.02373353 L458.582716,28.5137083 L220.246685,28.5137083 L199.125,1 Z" id="形状结合" fill="url(#linearGradient-2)" fill-rule="nonzero" transform="translate(340.000000, 170.000000) scale(1, -1) translate(-340.000000, -170.000000) "></path>
+                    <polygon id="路径-18" fill="#3BF2EC" fill-rule="nonzero" transform="translate(679.000000, 240.000000) rotate(-270.000000) translate(-679.000000, -240.000000) " points="721 239 721 241 637 241 637 239"></polygon>
+                    <polygon id="路径-18" fill="#3BF2EC" fill-rule="nonzero" transform="translate(1.000000, 240.000000) rotate(-270.000000) translate(-1.000000, -240.000000) " points="43 239 43 241 -41 241 -41 239"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

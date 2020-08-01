@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="120px" height="30px" viewBox="0 0 120 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>选中</title>
+    <desc>Created with Sketch.</desc>
+    <g id="数据大屏" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="数据大屏-Operations" transform="translate(-647.000000, -20.000000)">
+            <g id="头部" transform="translate(90.000000, 14.000000)">
+                <g id="进度" transform="translate(557.000000, 6.000000)">
+                    <g id="1">
+                        <g id="选中">
+                            <polygon id="矩形" fill-opacity="0.4" fill="#5AFFFA" points="9 1 118 1 118 21.151934 113.2 25.8888889 98.4095156 25.8888889 97.1188857 27.4444444 87.8659354 27.4444444 86.8168525 29 1 29 1 9.32855293"></polygon>
+                            <polygon id="矩形" fill="#3BF2EC" points="108 0 119 0 119 3 108 3"></polygon>
+                            <polygon id="路径-19" fill="#3BF2EC" fill-rule="nonzero" points="15.8294281 -1.42108547e-14 15.8294281 2 9.426 1.999 2 9.731 2 12.7911626 0 12.7911626 0 8.9260761 8.57395149 -1.41553436e-14"></polygon>
+                            <polygon id="路径-20" fill="#3BF2EC" points="118.99692 19 118.99692 21.9999578 114.014817 26.9704648 99.2587251 26.9704648 97.3033122 28.9623083 88.0855514 28.9623083 87 30 97.3033122 30 99.2587251 27.9645913 114.445993 27.9645913 120 22.2562363 120 19"></polygon>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
