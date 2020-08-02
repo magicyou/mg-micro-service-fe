@@ -11,3 +11,9 @@
 * 进入子项目子路由后，刷新页面程序界面丢失（正在找办法解决）
 * demo2 还是空的。暂时不知道放点啥
 * 进入demo1页面样式会闪一下，样式覆盖问题，持续优化 
+
+##### 效果
+
+![WechatIMG13](./static/WechatIMG13.png)
+
+![WechatIMG14](./static/WechatIMG14.png)
