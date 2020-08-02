@@ -54,7 +54,7 @@ export default {
                 },
                 {
                     key: "VueMicroApp",
-                    title: "user",
+                    title: "访问记录",
                      icon: 'user',
                     path: "/vue",
                 },
@@ -74,6 +74,13 @@ export default {
         toggleCollapsed() {
             this.collapsed = !this.collapsed;
         },
+        /**
+         * 路由跳转
+         * @author Bruce Lee
+         * @date 2020-08-02
+         * @param {any} path
+         * @returns {any}
+         */
         skip (path) {
             this.$router.push(path)
         },

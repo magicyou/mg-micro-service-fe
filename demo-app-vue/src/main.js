@@ -10,6 +10,15 @@ if (window.__POWERED_BY_QIANKUN__) {
 //   import VueRouter from "vue-router";
   
 //   import "./public-path";
+
+import { Icon } from 'ant-design-vue';
+
+const IconFont = Icon.createFromIconfontCN({
+  scriptUrl: '//at.alicdn.com/t/font_1980316_2pbpb35jkjl.js',
+});
+
+Vue.component('icon-font', IconFont);
+
   import App from "./App.vue";
   import routes from "./routes";
   

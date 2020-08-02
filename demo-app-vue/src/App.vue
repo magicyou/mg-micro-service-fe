@@ -5,13 +5,9 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
   name: 'app',
-  components: {
-    HelloWorld
-  }
 }
 </script>
 
@@ -20,5 +16,11 @@ export default {
 
 #app {
     background: rgba(16, 25, 66, 1);
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    overflow: hidden;
 }
 </style>
