@@ -67,6 +67,7 @@ export default {
 	},
 	mounted() {
 		this.skip('dashboard')
+		// this.skip('userPortrait')
 	},
 	methods: {
 		/**

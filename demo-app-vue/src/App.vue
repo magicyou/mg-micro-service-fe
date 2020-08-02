@@ -19,8 +19,8 @@ export default {
     display: flex;
     flex-direction: row;
     height: 100%;
-    width: 100%;
-    position: absolute;
+    // width: 100%;
+    // position: absolute;
     overflow: hidden;
 }
 </style>

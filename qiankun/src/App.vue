@@ -128,11 +128,13 @@ export default {
 }
 aside{
     width: 256px;
-   background: pink;
+    background: #15224d;
+    height: 100vh;
 }
 content{
     flex: 1;
     overflow-y: auto;
     overflow-x: hidden;
+    background-color: RGBA(3, 15, 66, 1);
 }
 </style>
