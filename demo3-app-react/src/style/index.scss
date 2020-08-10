@@ -1,0 +1,17 @@
+@import "./aside.scss";
+
+.container{
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+
+    .asider{
+        // width: 200px;
+    }
+
+    .content{
+        width: 0;
+        flex:1;
+    }
+
+}

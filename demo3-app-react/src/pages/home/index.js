@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import bannerUrl from '../../statics/images/banner.png';
+import {Link} from 'react-router-dom'
+
 import { 
     HomeWrapper, 
     HomeLeft,
@@ -26,21 +28,7 @@ class Home extends Component {
         const { showScroll } = this.props;
         return (
             <div>
-                <Header />
-                <HomeWrapper>
-                    <HomeLeft>
-                        <HomeBanner>
-                            <img src={bannerUrl} alt=""/>
-                        </HomeBanner>
-                        <Topic />
-                        <List />                        
-                    </HomeLeft>
-                    <HomeRight>
-                        <Recomment />
-                        <Writer />
-                    </HomeRight>
-                    { showScroll ? (<BackToTop onClick={this.handlerBackTop}> back </BackToTop>) : null }
-                </HomeWrapper>
+                 home
             </div>
         );
     }

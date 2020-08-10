@@ -10,11 +10,15 @@
 import { combineReducers } from 'redux-immutable'
 import headerReducer from '../common/header/store/reducer';
 import homeReducer from '../pages/home/store/reducer';
+import baseReducer from '../pages/base/store/reducer';
+import dashboardReducer from '../pages/dashboard/store/reducer';
 import detailReducer from '../pages/detail/store/reducer';
 
 const reducer = combineReducers({
     header: headerReducer,
+    base: baseReducer,
     home: homeReducer,
-    detail: detailReducer
+    detail: detailReducer,
+    dashboard: dashboardReducer
 });
 export default reducer; 

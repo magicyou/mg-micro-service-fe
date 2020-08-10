@@ -1,0 +1,16 @@
+.asider{
+    // width: 200px;
+
+    .aside-header{
+        display: flex;
+
+        .img-logo{
+            flex: 1;
+            color: #fff;
+            font-size: 30px;
+            line-height: 48px;
+            text-align: center;
+
+        }
+    }
+}
