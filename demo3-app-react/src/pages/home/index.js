@@ -1,20 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
-import bannerUrl from '../../statics/images/banner.png';
 import {Link} from 'react-router-dom'
-
-import { 
-    HomeWrapper, 
-    HomeLeft,
-    HomeBanner,
-    HomeRight,
-    BackToTop
- } from "./style.js";
- import Header from "../../common/header";
- import Topic from './components/Topic';
- import List from './components/List';
- import Recomment from './components/Recomment';
- import Writer from './components/Writer';
 import { actionCreators } from './store'
 
 class Home extends Component {
@@ -22,7 +8,6 @@ class Home extends Component {
         super(props)
         this.handlerBackTop = this.handlerBackTop.bind(this);
     }
-
 
     render () {
         const { showScroll } = this.props;

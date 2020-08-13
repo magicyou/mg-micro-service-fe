@@ -22,7 +22,7 @@ function App() {
                 <div className="content">
                     <div>
 
-                        <Route path="/" exact component={Home}></Route>
+                        <Route path="/" exact component={Dashboard}></Route>
                         <Route path="/login" component={Login}></Route>
                         <Route path="/dashboard" component={Dashboard}></Route>
                         <Route path="/detail/:id" component={Detail}></Route> 

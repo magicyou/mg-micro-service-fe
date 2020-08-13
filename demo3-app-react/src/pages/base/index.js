@@ -51,7 +51,7 @@ class Base extends Component {
             >
               <Menu.Item key="1" icon={<PieChartOutlined />} 
               >
-                 <Link to="/">Home</Link>
+                 <Link to="/">dashboard</Link>
               </Menu.Item>
               <Menu.Item key="2" icon={<DesktopOutlined />}>
               <Link to="/login">to login</Link>
