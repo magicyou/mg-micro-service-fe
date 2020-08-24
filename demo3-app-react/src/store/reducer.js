@@ -9,14 +9,18 @@
 // import { combineReducers } from 'redux';
 import { combineReducers } from 'redux-immutable'
 import headerReducer from '../common/header/store/reducer';
+import mainReducer from '../pages/main/store/reducer';
 import homeReducer from '../pages/home/store/reducer';
+import authMenuReducer from '../pages/authMenu/store/reducer';
 import baseReducer from '../pages/base/store/reducer';
 import dashboardReducer from '../pages/dashboard/store/reducer';
 import detailReducer from '../pages/detail/store/reducer';
 
 const reducer = combineReducers({
+    main: mainReducer,
     header: headerReducer,
     base: baseReducer,
+    authMenu: authMenuReducer,
     home: homeReducer,
     detail: detailReducer,
     dashboard: dashboardReducer

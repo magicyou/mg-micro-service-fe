@@ -1,67 +1,77 @@
 import React, { Component } from 'react';
-import { Row, Col, Skeleton, Switch, Card, Avatar } from 'antd';
-import { EditOutlined, EllipsisOutlined, SettingOutlined } from '@ant-design/icons';
+import { Row, Col, Skeleton, Switch, Card, PageHeader } from 'antd';
+import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 import { connect } from 'react-redux';
-import { actionCreators } from './store'
-import { 
-    DetailWrapper 
- } from "./style.js";
+import { actionCreators } from './store';
+import MyIcon from '../../components/MyIcon';
+
  const { Meta } = Card;
 
 class Dashboard extends Component {
 
     render () {
-        let loading = true;
+        let loading = false;
         return (
             <div>
+                <PageHeader
+                    className="site-page-header"
+                    title="Dashboard"
+                />
                  <Row gutter={[16, 16]}>
+                    <Col span={6}>
+                        <Card loading={loading}>
+                        <Meta
+                            avatar={
+                            <MyIcon type="iconjiaoyinzujifangke" />
+                            }
+                            title="Card title"
+                            description={
+                                <p><ArrowUpOutlined /> 123 &nbsp;&nbsp;  <ArrowDownOutlined /> 123</p>
+                            }
+                        />
+                        </Card>
+                    </Col>
+                    <Col span={6}>
+                        <Card loading={loading}>
+                        <Meta
+                            avatar={
+                                <MyIcon type="iconshijian" />
+                            }
+                            title="Card title"
+                            description={
+                                <p><ArrowUpOutlined /> 123 &nbsp;&nbsp;  <ArrowDownOutlined /> 123</p>
+                            }
+                        />
+                        </Card>
+                    </Col>
+                    <Col span={6}>
+                        <Card loading={loading}>
+                        <Meta
+                            avatar={
+                                <MyIcon type="iconfenbu" />
+                            }
+                            title="Card title"
+                            description={
+                                <p><ArrowUpOutlined /> 123 &nbsp;&nbsp;  <ArrowDownOutlined /> 123</p>
+                            }
+                        />
+                        </Card>
+                    </Col>
+                    <Col span={6}>
+                        <Card loading={loading}>
+                        <Meta
+                            avatar={
+                                <MyIcon type="iconqushitu" />
+                            }
+                            title="Card title"
+                            description={
+                                <p><ArrowUpOutlined /> 123 &nbsp;&nbsp;  <ArrowDownOutlined /> 123</p>
+                            }
+                        />
+                        </Card>
+                    </Col>
+
                     <Col span={12}>
-                    <Row gutter={[16, 16]}>
-                        <Col span={12}>
-                            <Card loading={loading}>
-                            <Meta
-                                avatar={
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-                                }
-                                title="Card title"
-                                description="This is the description"
-                            />
-                            </Card>
-                        </Col>
-                        <Col span={12}>
-                            <Card loading={loading}>
-                            <Meta
-                                avatar={
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-                                }
-                                title="Card title"
-                                description="This is the description"
-                            />
-                            </Card>
-                        </Col>
-                        <Col span={12}>
-                            <Card loading={loading}>
-                            <Meta
-                                avatar={
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-                                }
-                                title="Card title"
-                                description="This is the description"
-                            />
-                            </Card>
-                        </Col>
-                        <Col span={12}>
-                            <Card loading={loading}>
-                            <Meta
-                                avatar={
-                                <Avatar src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png" />
-                                }
-                                title="Card title"
-                                description="This is the description"
-                            />
-                            </Card>
-                        </Col>
-                    </Row>
                     
                     </Col>
                     <Col span={12}>col</Col>
