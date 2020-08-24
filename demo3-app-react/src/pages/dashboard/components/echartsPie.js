@@ -15,7 +15,7 @@ export default class EchartPie extends Component {
     }
 
     render () {
-        return <div className="" style={{color:'pink', width: '400px', height: '400px'}} id="box_echarts_bug_trend">
+        return <div className="" style={{color:'pink', width: '100%', height: '400px'}} id="box_echarts_bug_trend">
 
             </div>
     }
@@ -72,7 +72,7 @@ export default class EchartPie extends Component {
                         show: false
                     },
                     axisLabel: {
-                        color: '#fff',
+                        color: '#222',
                         fontSize: 12,
                         formatter:function(params){
                             return params.split(' ')[1];
