@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
 import { Row, Col, Skeleton, Switch, Card, PageHeader } from 'antd';
+import EchartPie from './components/echartsPie';
 import { ArrowUpOutlined, ArrowDownOutlined } from '@ant-design/icons';
 import { connect } from 'react-redux';
 import { actionCreators } from './store';
 import MyIcon from '../../components/MyIcon';
+
 
  const { Meta } = Card;
 
@@ -15,7 +17,7 @@ class Dashboard extends Component {
             <div>
                 <PageHeader
                     className="site-page-header"
-                    title="Dashboard"
+                    title="数据预览"
                 />
                  <Row gutter={[16, 16]}>
                     <Col span={6}>
@@ -72,7 +74,7 @@ class Dashboard extends Component {
                     </Col>
 
                     <Col span={12}>
-                    
+                            <EchartPie />
                     </Col>
                     <Col span={12}>col</Col>
                 </Row>
