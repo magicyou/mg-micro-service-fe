@@ -1883,9 +1883,9 @@ browserslist@^4.0.0, browserslist@^4.12.0, browserslist@^4.3.4, browserslist@^4.
     node-releases "^1.1.58"
 
 buffer-from@^1.0.0:
-  version "1.1.1"
-  resolved "https://registry.npm.taobao.org/buffer-from/download/buffer-from-1.1.1.tgz#32713bc028f75c02fdb710d7c7bcec1f2c6070ef"
-  integrity sha1-MnE7wCj3XAL9txDXx7zsHyxgcO8=
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/buffer-from/-/buffer-from-1.1.2.tgz#2b146a6fd72e80b4f55d255f35ed59a3a9a41bd5"
+  integrity sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==
 
 buffer-indexof@^1.0.0:
   version "1.1.1"
@@ -2269,10 +2269,10 @@ clone@^1.0.2:
   resolved "https://registry.npm.taobao.org/clone/download/clone-1.0.4.tgz#da309cc263df15994c688ca902179ca3c7cd7c7e"
   integrity sha1-2jCcwmPfFZlMaIypAheco8fNfH4=
 
-clone@^2.1.2:
+clone@^2.1.1:
   version "2.1.2"
-  resolved "https://registry.npm.taobao.org/clone/download/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
-  integrity sha1-G39Ln1kfHo+DZwQBYANFoCiHQ18=
+  resolved "https://registry.yarnpkg.com/clone/-/clone-2.1.2.tgz#1b7f4b9f591f1e8f83670401600345a02887435f"
+  integrity sha512-3Pe/CF1Nn94hyhIYpjtiLhdCoEoz0DqQ+988E9gmeEdQZlojxnOb74wctFyuwWQHzqyf9X7C7MG8juUpqBJT8w==
 
 co@^4.6.0:
   version "4.6.0"
@@ -2360,8 +2360,8 @@ commander@2.17.x:
 
 commander@^2.18.0, commander@^2.20.0:
   version "2.20.3"
-  resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.3.tgz?cache=0&sync_timestamp=1595168120323&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
-  integrity sha1-/UhehMA+tIgcIHIrpIA16FMa6zM=
+  resolved "https://registry.yarnpkg.com/commander/-/commander-2.20.3.tgz#fd485e84c03eb4881c20722ba48035e8531aeb33"
+  integrity sha512-GpVkmM8vF2vQUkj2LvZmD35JxeJOLCwJ9cUkugyk2nuhbv3+mJvpLYYt+0+USMxE+oj+ey/lJEnhZw75x/OMcQ==
 
 commander@~2.19.0:
   version "2.19.0"
@@ -2516,6 +2516,11 @@ core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.npm.taobao.org/core-js/download/core-js-2.6.11.tgz?cache=0&sync_timestamp=1586450527243&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcore-js%2Fdownload%2Fcore-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha1-OIMUafmSK97Y7iHJ3EaYXgOZMIw=
+
+core-js@^2.6.11:
+  version "2.6.12"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz#d9333dfa7b065e347cc5682219d6f690859cc2ec"
+  integrity sha512-Kb2wC0fvsWfQrgk8HU5lW6U/Lcs8+9aaYcy4ZFc6DDlo4nZ7n70dEgE5rtR0oG6ufKDUnrwfWL1mXR5ljDatrQ==
 
 core-js@^3.6.5:
   version "3.6.5"
@@ -5186,17 +5191,16 @@ launch-editor@^2.2.1:
     chalk "^2.3.0"
     shell-quote "^1.6.1"
 
-less-loader@^6.2.0:
-  version "6.2.0"
-  resolved "https://registry.npm.taobao.org/less-loader/download/less-loader-6.2.0.tgz?cache=0&sync_timestamp=1593787629452&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless-loader%2Fdownload%2Fless-loader-6.2.0.tgz#8b26f621c155b342eefc24f5bd6e9dc40c42a719"
-  integrity sha1-iyb2IcFVs0Lu/CT1vW6dxAxCpxk=
+less-loader@5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/less-loader/-/less-loader-5.0.0.tgz#498dde3a6c6c4f887458ee9ed3f086a12ad1b466"
+  integrity sha512-bquCU89mO/yWLaUq0Clk7qCsKhsF/TZpJUzETRvJa9KSVEL9SO3ovCvdEHISBhrC81OwC8QSVX7E0bzElZj9cg==
   dependencies:
-    clone "^2.1.2"
-    less "^3.11.3"
-    loader-utils "^2.0.0"
-    schema-utils "^2.7.0"
+    clone "^2.1.1"
+    loader-utils "^1.1.0"
+    pify "^4.0.1"
 
-less@^3.11.3, less@^3.12.2:
+less@^3.12.2:
   version "3.12.2"
   resolved "https://registry.npm.taobao.org/less/download/less-3.12.2.tgz?cache=0&sync_timestamp=1594913870107&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fless%2Fdownload%2Fless-3.12.2.tgz#157e6dd32a68869df8859314ad38e70211af3ab4"
   integrity sha1-FX5t0ypohp34hZMUrTjnAhGvOrQ=
@@ -7742,9 +7746,9 @@ source-map-resolve@^0.5.0:
     urix "^0.1.0"
 
 source-map-support@~0.5.12:
-  version "0.5.19"
-  resolved "https://registry.npm.taobao.org/source-map-support/download/source-map-support-0.5.19.tgz#a98b62f86dcaf4f67399648c085291ab9e8fed61"
-  integrity sha1-qYti+G3K9PZzmWSMCFKRq56P7WE=
+  version "0.5.21"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.5.21.tgz#04fe7c7f9e1ed2d662233c28cb2b35b9f63f6e4f"
+  integrity sha512-uBHU3L3czsIyYXKX88fdrGovxdSCoTGDRZ6SYXtSRxLZUzHg5P/66Ht6uoUlHu9EZod+inXhKo3qQgwXUT/y1w==
   dependencies:
     buffer-from "^1.0.0"
     source-map "^0.6.0"
@@ -8192,9 +8196,9 @@ terser-webpack-plugin@^1.2.3, terser-webpack-plugin@^1.4.3:
     worker-farm "^1.7.0"
 
 terser@^4.1.2:
-  version "4.8.0"
-  resolved "https://registry.npm.taobao.org/terser/download/terser-4.8.0.tgz?cache=0&sync_timestamp=1593953635939&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fterser%2Fdownload%2Fterser-4.8.0.tgz#63056343d7c70bb29f3af665865a46fe03a0df17"
-  integrity sha1-YwVjQ9fHC7KfOvZlhlpG/gOg3xc=
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-4.8.1.tgz#a00e5634562de2239fd404c649051bf6fc21144f"
+  integrity sha512-4GnLC0x667eJG0ewJTa6z/yXrbLGv80D9Ru6HIpCQmO+Q4PfEtBFi0ObSckqwL6VyQv/7ENJieXHo2ANmdQwgw==
   dependencies:
     commander "^2.20.0"
     source-map "~0.6.1"
